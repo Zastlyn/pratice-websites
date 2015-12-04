@@ -1,0 +1,43 @@
+* {
+	margin:0;
+}
+
+body {
+	background-color: #d49b6a;
+}
+
+html,body{
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+
+div {
+	border-radius: 5px;
+}
+
+.header {
+	width:150%;
+	height:100px;
+	
+	border: solid #000 2px;
+	background-color: #061539;
+
+}
+
+#main {
+	width:92em;
+	height:35em;
+	border: solid #000 2px;
+	background-color: #162856;
+	margin: 80px;
+}
+
+.footer {
+	
+	width:150%;
+	height:200px;
+	margin-bottom: -10px;
+	
+	border:solid #000 2px;
+	background-color: #d4c36a;
+}
