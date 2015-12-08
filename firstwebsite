@@ -15,8 +15,17 @@
 		</div>
 
 
-		<div id = "main"> </div>
+		<div id = "main"> 
+			<ol>
+				<li>I Like Puppies</li>
+				<li>I work for Hartford Public Schools</li>
+				<li>I got a Hot girlfriend</li>
+			</ol>
+			<img align="right" src="Katie.png" />
+		</div>
+			
 
 		<div class = "footer"></div>
+
 	</body>
 </html>

@@ -15,7 +15,7 @@ html,body{
 div {
 	border-radius: 5px;
 }
-/* Messing with this, the css.maxdesign website, to make these inline blocks */
+
 #navcontainer {
 	width:150%;
 	height:100px;
@@ -62,8 +62,9 @@ display:table;
 #navcontainer ul li a
 {
 text-decoration: none;
-padding: 5em 7em 5em 7em;
-margin: 9.4em;
+padding: 2em;
+margin-left: 5em;
+margin-right: 7em;
 color: #fff;
 background-color: #036;
 }
@@ -75,10 +76,26 @@ background-color: #369;
 }
 
 a {
-	font-size: 100%;
+	font-size: 180%;
 	font-weight: bold;
 	font-family:Verdana,sans-serif, cursive;
-	
-
 }
 
+/* Main Txt/Picture middle section */
+
+#main ol li{
+	clear:left;
+	font-weight: bold;
+	margin:9%;
+	font-family: Verdana,sans-serif,cursive;
+	color: #88E3C6;
+	font-size: 150%;
+}
+
+img {
+	padding: 0;
+	clear:right;
+	margin: auto;
+	height: 100%;
+	width: 50%;
+}
