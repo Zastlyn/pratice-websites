@@ -5,11 +5,11 @@
 		<title>Baby's First Website!</title>
 	</head>
 	<body>
-		<div class = "header">
+		<div id="navcontainer">
 			<ul>
-				<li>Bio</li>
-				<li>Hobbies</li>
-				<li>About Me</li>
+				<li> <a href="#">Bio</a> </li>
+				<li> <a href="#">Hobbies</a> </li>
+				<li> <a href="#">About me</a> </li>
 			</ul>
 			
 		</div>
