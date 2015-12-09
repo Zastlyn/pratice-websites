@@ -1,7 +1,7 @@
 /* Makesthe header go all the way from left-right */
 * {
 	margin:0;
-}
+} 
 
 body {
 	background-color: #d49b6a;
@@ -33,15 +33,7 @@ div {
 	margin: 80px;
 }
 
-.footer {
-	
-	width:150%;
-	height:200px;
-	margin-bottom: -10px;
-	
-	border:solid #000 2px;
-	background-color: #d4c36a;
-}
+
 
 /* Header options/buttons */
 #navcontainer ul
@@ -94,8 +86,67 @@ a {
 
 img {
 	padding: 0;
-	clear:right;
-	margin: auto;
-	height: 100%;
-	width: 50%;
+	margin: 0;
+	float:right;
+	margin-top: -34em;
+	margin-right: 5em;
+	height: 80%;
+	width: 45%;
+
 }
+/*Footer syling*/
+
+#footer {
+
+	
+	width:150%;
+	height:200px;
+	margin-bottom: -10px;
+	
+	border:solid #000 2px;
+	background-color: #d4c36a;
+	position: relative;
+}
+
+#footer p {
+	font-size:2em;
+	font-weight: bold;
+	font-family: Verdana, sans-serif, cursive;
+	color: #fff;
+
+}
+
+#facebookbtn {
+	height: 49px;
+	width: 150px;
+	border:solid black 2px;
+	border-radius: 5px;
+	background-color: #036;
+	position: relative;
+	margin-top: -100px;
+	margin-left: 1500px;
+}
+
+#facebookbtn p {
+
+	font-size:20px;
+	text-align:center;
+	margin: 0;
+	padding:0;
+	background-color: #036;
+
+}
+
+#facebookbtn:hover p:hover {
+	color: #fff;
+	background-color: #369
+}
+
+
+/* Start of About Me page */
+
+.aboutme {
+	background-color:#000;
+}
+
+

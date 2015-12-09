@@ -4,12 +4,13 @@
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 		<title>Baby's First Website!</title>
 	</head>
+	
 	<body>
 		<div id="navcontainer">
 			<ul>
 				<li> <a href="#">Bio</a> </li>
 				<li> <a href="#">Hobbies</a> </li>
-				<li> <a href="#">About me</a> </li>
+				<li> <a href="Aboutme.html">About me</a> </li>
 			</ul>
 			
 		</div>
@@ -19,13 +20,23 @@
 			<ol>
 				<li>I Like Puppies</li>
 				<li>I work for Hartford Public Schools</li>
-				<li>I got a Hot girlfriend</li>
+				<li>I got a Hot Girlfriend</li>
 			</ol>
-			<img align="right" src="Katie.png" />
+			<img src="Katieface.jpeg" />
 		</div>
 			
 
-		<div class = "footer"></div>
+		<div id="footer">
+			<p> John Gallagher</p>
+			<p>Something@email.com</p>
+			<p>#Twitter</p>
+
+				<div id="facebookbtn">
+					<p>Like me on Facebook!<p>
+				</div>
+
+
+		</div>
 
 	</body>
 </html>
