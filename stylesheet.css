@@ -149,4 +149,57 @@ img {
 	background-color:#000;
 }
 
+#aboutme-nav{
+	position: absolute;
+	background-color: #FF000A;
+	width: 70%;
+	height:15%;
+	margin-top: 120px;
+	border-radius: 5px;
+	border: solid #F19954;
+	top: 0;
+	right: 0;
+  	bottom: 0;
+  	left: 15em;
+
+}
+/* FIND OUT WHATS WITH AHREF MAKING THE BUTTONS ALL FUGGED */
+
+#navbar-buttons li a{
+	float: left;
+	list-style: none;
+	text-align: center;
+	background-color: #F19954;
+	margin-right: 115px;
+	margin-top: 13px; 
+	margin-left: 13px;
+	height: 120px;
+	width: 250px;
+	font-size: 50px;
+	font-family: sans-serif,Verdana,cursive;
+	color: #000;
+
+
+}
+
+#main-text-box{
+	position: absolute;
+	background-color: #FF000A;
+	border-radius: 5px;
+	border:solid #F19954;
+	top: 21em;
+	bottom: 0;
+	right: 0;
+	left: 27em;
+	height: 50%;
+	width: 50%;
+
+}
+
+#main-text-box p {
+	font-family: sans-serif,Verdana,cursive;
+	font-size: 26px;
+	font-weight: bold;
+
+}
 
